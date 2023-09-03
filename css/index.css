@@ -113,7 +113,7 @@
 }
 
 
-/* 新鲜好物 */
+/* 新鲜好物  好物推荐 热门品牌*/
 .goods .hd{
     height: 114px;
     line-height: 114px;
@@ -129,6 +129,7 @@
 .goods .hd h2 span{
     color: #999;
     font-size: 16px;
+    font-weight: 400;
     margin-left: 34px;
 }
 
@@ -201,10 +202,34 @@
 }
 
 
+/* 好物推荐 */
+.popu .bd li:hover{
+    border: 1px solid #9a2e1f;
+}
+
+.popu .bd p{
+    font-size: 13px;
+    color: #757373;
+    margin-top: 12px;
+}
 
 
+/* 热门品牌 */
+.pinpai .bd li{
+    background-color: #fff;
+    height: 420px;
+}
 
+.pinpai .bd li:hover{
+    border: none;
+}
 
+.pinpai .bd img{
+    padding: 2px;
+}
 
+.pinpai .bd img:hover{
+    border: 1px solid #27b19b;
+}
 
 
